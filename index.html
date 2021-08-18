@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        sweetshop.com
+        </title>
+        <style>
+            header{
+                width: 100%;
+                height: 70px; 
+                float: left; 
+                box-sizing: border-box;
+                padding: 10px;
+            }
+            body{padding: 0;
+                margin: 0;
+            }
+            #brand-name{
+                float: left; 
+                padding:;
+                margin: 0;
+                font-family:
+             sans-serif; 
+                margin-top: 6px; 
+                margin-left: 25px;
+            }
+            #taglines{float: right; 
+                font-family: calibri; 
+                margin-right: 35px;
+            }
+            nav{width: 100%;
+            height: 120px;
+            box-sizing: border-box;
+            background-color: #FB2F3E; 
+                float: left;
+                padding: 30px;
+            }
+            #search-box{
+                width: 500px;
+                height: 40px;
+                border-style: none;
+                box-sizing:border-box;
+                float: left;
+                margin-left: 3px;
+                padding: 5px;
+                font-size: 30px;
+                margin-top: 3px;
+            }
+            #search-btn{
+                border-style: none;
+                height: 40px;
+                width: 110px;
+                box-sizing: border-box;
+                float: left;
+                 margin-left: 3px;
+                margin-top: 3px;
+                 }
+            #nav-table{
+                float: right;
+                width: 600px;
+                height: 40px;
+                box-sizing: border-box;
+                }
+            #nav-box{
+                background: white;
+                width: 20%;
+                text-align: center;
+                box-sizing: border-box;
+            }
+            a{
+                text-decoration: none;
+                color: #323232;
+                font-family: sans-serif;
+            }
+            section{
+                width: 100%;
+                height: 1800px;
+                box-sizing:border-box;
+                float: left;
+             padding: 30px;
+            }
+            #venue{
+                float: left;
+                
+            }
+            #moblie{float: right;
+            }
+            #popular-sweets{
+                width: 720px;
+                height: 550px;
+                box-sizing: border-box;
+                float: left;
+            background: black;
+                clear: left;
+                margin-top: 40px;
+                padding:5px;
+                
+            }
+            #sweets-header{
+                font-family: sans-serif;
+                color: white;
+                padding: 0px;
+                margin: 0px;
+                margin-left: 25px;
+                margin-top: 10px;
+            }
+            #popular-sweets-img{
+                width: 300px;
+                height: 200px;
+                float: left;
+                box-sizing: border-box;
+                margin: 25px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: white;
+            }
+            #price-chart{
+                width: 550px;
+                height: 550px;
+                float: right;
+              
+                box-sizing: border-box;
+                margin-top: 40px;
+            }
+            #sweets-name{
+            background-color: black;
+                box-sizing: border-box;
+                height: 50px;
+                color: white;
+                font-family: sans-serif;
+                text-align: center;
+                
+            }
+             #price{
+            background: red;
+                box-sizing: border-box;
+                 height: 500px;
+            }
+            #sweets{
+                color: white;
+                font-family: sans-serif;
+                font-size: 25px;
+            }
+            #sweets-price{
+                color: white;
+                font-family: sans-serif;
+                font-size: 25px;
+                list-style: none;
+                
+            }
+           #form-section{
+                width: 720px;
+                height: 720px;
+                border-color: #ccc;
+                border-style: solid;
+                border-width: 1px;
+                box-sizing: border-box;
+                float: left;
+                margin-top: 50px;
+            }
+            legend{
+                font-family: sans-serif;
+                color: #323232;
+                font-size: 25px;
+                font-weight: bold;
+                
+            }
+            form{
+                font-family: sans-serif;
+                color: #323232;
+            }
+            #form-box{
+                border: 1px solid #ccc;
+                width: 100%;
+                height: 45px;
+                box-sizing: border-box;
+                margin-top: 5px;
+            }
+            #address{
+                width: 100%;
+                height: 100px;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+            #submit{
+                background: white;
+                float: right;
+                margin-top: 5px;
+                border: 1px solid #ccc;
+                padding: 5px;
+            }
+            #aside{
+                width: 550px;
+                height: 720px;
+                float: right;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+                margin-top: 55px;
+            }
+            #about{
+                font-family: sans-serif;
+                color: #323232;
+                text-align: center;
+            }
+            #about-us{
+                font-family: sans-serif;
+                color: #323232;
+                padding: 25px;
+                text-align: justify;
+                line-height: 20px;
+            }
+            #more-sweets-header{
+                width: 100%;
+                height: 50px;
+                background: red;
+                border-radius: 40px;
+                float: left;
+                margin-top: 50px;
+                box-sizing: border-box;
+            }
+            #more-sweets{
+                text-align: center;
+                color: white;
+                font-family: sans-serif;
+                margin: 0px;
+                padding: 0px;
+                margin-top: 12px;
+            }
+            #more-sweets-box{
+                width: 200px;
+                height: 220px;
+                box-sizing: border-box;
+                float: left;
+                border: 1px solid #ccc;
+             margin: 28px;
+                margin-top: 20px;
+                padding: 17px;
+            }
+            #buy-btn{
+                width: 120px;
+                height: 50px;
+                background: white;
+                box-sizing: border-box;
+                margin-left:22px;
+                margin-top: 5px;
+                border: 1px solid #ccc;
+            }
+            footer{
+                width: 100%;
+                height: 250px;
+                float: left;
+                background: #323232;
+                
+            }
+            #contact-us{
+                width: 300px;
+                height: 200px;
+                 float: left;
+                margin-top: 5px;
+            }
+            #about-us-footer{
+                  width: 300px;
+                height: 200px;
+                float: right;
+                margin-top: 5px;
+            }
+            #c-us{
+                color: white;
+                float:left;
+                font-family: sans-serif;
+                margin: 0px;
+                padding: 0px;
+                margin-left: 5px;
+            }
+            #c-num{
+                color: white;
+                font-family: sans-serif;
+                float: left;
+                line-height: 30px;
+                padding: 5px;
+            }
+            #developers{
+                color: white;
+                float: left;
+                clear: left;
+                font-family: scream real;
+                margin-left: 37%;
+                
+                
+            }
+        </style>
+    </head>
+<body>
+    <header><h1 id="brand-name">sweetshop.com</h1>
+    <p id="taglines">india's largest sweets and bekries shop</p>
+    
+    </header>
+    <nav>
+        
+    <form>
+        <input type="search" name="search" id="search-box" placeholder="search this site" />
+        <input type="submit" value="search now"  id="search-btn"/>
+        </form>
+        <table width="600px" height="40px" id="nav-table"> 
+        <tr>
+            <td id="nav-box"><a href="#">Home</a></td>
+            <td id="nav-box"><a href="sweets.html">Sweets</a></td>
+            <td id="nav-box"><a href="#">Bakeries</a></td>
+            <td id="nav-box"><a href="#c-us">Contact Us</a></td>
+            <td id="nav-box"><a href="#c-us">About Us</a></td>
+            </tr>
+        
+        </table>
+    </nav>
+    <section>
+    <address id="venue">venue: 4 jiyalal roy road , bangluru karnatka</address>
+        <address id="moblie">order online:- 9522525100, 9009695348 </address>
+        <div id="popular-sweets">
+        <h1 id="sweets-header">Our Popular Sweets</h1>
+            <img src="images/gulab.jpg" id="popular-sweets-img" />
+             <img src="images/laddu.jpg" id="popular-sweets-img" />
+             <img src="images/barfi.jpg" id="popular-sweets-img" />
+             <img src="images/sweets.jpg" id="popular-sweets-img" />
+        </div>
+        <table id="price-chart">
+        <tr>
+            <td id="sweets-name">Sweets</td>
+            <td id="sweets-name">Price</td>
+            </tr>
+        <tr>
+            <td id="price">
+            <ol id="sweets">
+                <li>Rasgulla </li><hr color="white" /> 
+                 <li>Jalebi</li><hr color="white" /> 
+                 <li>Barfi</li><hr color="white" /> 
+                 <li>Chhena</li><hr color="white" /> 
+                 <li>Balishahi</li><hr color="white" /> 
+                 <li>RAjbhog</li><hr color="white" /> 
+                 <li>Gulab Jamun</li><hr color="white" /> 
+                 <li>Rasmalai</li><hr color="white" /> 
+                </ol>
+            </td>
+            <td id="price">
+              <ol id="sweets-price">
+                <li>Rs: 200 </li><hr color="white" /> 
+                 <li>Rs: 200 </li><hr color="white" /> 
+                 <li>Rs: 200 </li><hr color="white" /> 
+                 <li>Rs: 200 </li><hr color="white" /> 
+                 <li>Rs: 200 </li><hr color="white" /> 
+                 <li>Rs: 200 </li><hr color="white" /> 
+                 <li>Rs: 200</li><hr color="white" /> 
+                 <li>Rs: 200</li><hr color="white" /> 
+                </ol>
+            </td>
+            </tr>
+        </table>
+        <fieldset id="form-section">
+            <legend>order online</legend>
+        <form><br /><br /><br />
+            Buyer Name<br />
+        <input type="text" name="Buyer Name" id="form-box" /><br /><br /><br />
+            Mobile<br />
+            <input type="number" name="Mobile" id="form-box" /><br /><br /><br />
+            Choose Sweets<br />
+            <select name="Choose Sweets" id="form-box"><br /><br /><br />
+            <option value="Rasgulla">Rasgulla</option>
+                 <option value="Rasgulla">gulaab jamun</option>
+                <option value="Rasgulla">Rasgulla</option>
+            </select><br /><br /><br />
+            Type Quantity<br />
+            <input type="text" name="Type Quantity" id="form-box" /><br /><br /><br />
+            Address<br />
+            <textarea id="address"></textarea><br />
+            <input type="submit" value="Order Now" id="submit" />
+        </form>
+        </fieldset>
+        <div id="aside">
+        <h1 id="about">About Us</h1>
+            <hr>
+            <p id="about-us">
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source , making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source , making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source , making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source , making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage
+            </p>
+        </div>
+        <div id="more-sweets-header"><h1 id="more-sweets">More Sweets</h1></div>
+        <div id="more-sweets-box">
+        <img src="images/a.png" alt="a" width="170" height="130" />
+            <a href="#form-section"><button id="buy-btn">Buy Now</button></a>
+        </div>
+         <div id="more-sweets-box">
+         <img src="images/b.png" alt="b" width="170" height="130" />
+               <a href="#form-section"><button id="buy-btn">Buy Now</button></a>
+        </div>
+        <div id="more-sweets-box">
+         <img src="images/c.png" alt="c" width="170" height="130" />
+              <a href="#form-section"><button id="buy-btn">Buy Now</button></a>
+        </div>
+         <div id="more-sweets-box">
+         <img src="images/d.png" alt="d" width="170" height="130" />
+               <a href="#form-section"><button id="buy-btn">Buy Now</button></a>
+        </div>
+         <div id="more-sweets-box">
+         <img src="images/e.jpg" alt="e"  width="170" height="130" />
+               <a href="#form-section"><button id="buy-btn">Buy Now</button></a>
+        </div>
+        
+    </section>
+    <footer>
+    <div id="contact-us">
+        
+        
+        <h1 id="c-us">Contact Us</h1>
+         <address id="c-num">
+            website : www.sweetshop.com<br />
+            email   : rv16011998@gmail.com<br />
+            phone   : 021 254689 , 023 468456<br />
+            mobile  : 9522525100 , 9009695348
+            </address>
+        </div>
+        <div id="about-us-footer">
+            <h1 id="c-us">About Us</h1>
+        <address id="c-num">
+            we are one of the most sweets quality
+            in our area. we makes best quality of food and 
+            bekeris. we also provide free home delevery call us now
+            </address> 
+            
+        </div>
+        <address id="developers">Developed By : Ravi Vishwakarma</address>
+    </footer>
+    </body>
+
+</html>
